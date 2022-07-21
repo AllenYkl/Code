@@ -9,9 +9,7 @@ from loguru import logger
 from lxml import etree
 
 requests.packages.urllib3.disable_warnings()
-"""
-名人名言 按朝代分类
-"""
+
 headers = {
     'authority': '*',
     'user-agent': '*',
