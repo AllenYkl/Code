@@ -13,11 +13,11 @@ requests.packages.urllib3.disable_warnings()
 名人名言 按朝代分类
 """
 headers = {
-    'authority': 'www.mingyantong.com',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'referer': 'https://www.mingyantong.com/',
-    'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8'
+    'authority': '*',
+    'user-agent': '*',
+    'accept': '*',
+    'referer': '*',
+    'accept-language': '*'
 }
 # proxy
 
@@ -64,8 +64,8 @@ def savedata(data):
         f.write("\n")
 
 
-host = "https://www.mingyantong.com"
-base_url = "https://www.mingyantong.com/dynasty/{}?page={}"
+host = "*"
+base_url = "*"
 dynastys = ["先秦", "汉朝", "魏晋", "南北朝", "隋唐五代", "宋朝", "元朝", "明朝", "清朝", "近现代"]
 
 
