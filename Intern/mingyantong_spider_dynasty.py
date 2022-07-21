@@ -64,7 +64,7 @@ def savedata(data):
 
 host = "*"
 base_url = "*"
-dynastys = ["先秦", "汉朝", "魏晋", "南北朝", "隋唐五代", "宋朝", "元朝", "明朝", "清朝", "近现代"]
+dynastys = [*]
 
 
 def crawl():
